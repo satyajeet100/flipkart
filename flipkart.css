@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: blue; */
+    background-color: #2874f0;
+    height: 60px;
+}
+
+.navbar2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid grey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 160px;
+}
+
+.plus-section {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+    margin-top: 2px;
+}
+
+.plus {
+    color: yellow;
+    margin-left: 2px;
+}
+
+.plus1 {
+    color: yellow;
+}
+
+.nav, .nav2 {
+    display: flex;
+    list-style: none;
+}
+.nav li {
+    margin-left: 40px;
+    color: whitesmoke
+}
+.nav2 li {
+    margin-left: 40px;
+    color: black;
+}
+
+.nav li:hover, .nav2 li:hover {
+    color: rgb(104, 12, 33);
+    text-decoration: underline;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 510px;
+    /* height: 20px; */
+    /* padding: 25px; */
+    margin-right: 200px;
+}
+
+.search {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    /* border-radius: 5px; */
+}
+
+input[type="search"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search i {
+    margin-left: 10px;
+    color: grey;
+}
+
+.cart {
+    color: white;
+    margin-right: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: blue; */
+    color: white;
+    padding: 20px;
+    /* border-radius: 10px; */
+    width: 50%;
+    margin-left: 325px;
+    height: 500px;
+    background: url('/background.png') no-repeat;
+    background-color: #2874f0;
+    background-position: center 85%;
+    color: #fff;
+    padding: 40px 33px;
+}
+.header-text {
+    font-size: 28px;
+    font-weight: 500;
+}
+.sub-text {
+    margin-top: 16px;
+    line-height: 1.5;
+    color: #dbdbdb;
+    font-size: 18px;
+}
+
+
+.rightcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-right: 320px;
+    padding: 56px 35px 16px;
+    border: 1px solid white;
+    padding-bottom: 205px;
+}
+
+.main-form {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 34px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.floating-label {
+    color: #878787;
+    font-weight: 400;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s ease all;
+}
+
+input:focus + .floating-label,
+input:not(:placeholder-shown) + .floating-label {
+    top: -10px;
+    font-size: 12px;
+}
+
+input:focus,
+input:not(:placeholder-shown) {
+    border-bottom: 1px solid #2874f0;
+}
+
+.tc-text {
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.tc-text a {
+    color: #2874f0;
+}
+
+.btn_otp {
+    background: #fb641b;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn_otp:hover {
+    background: #f96c10;
+}
+
+.create-account {
+    text-align: center;
+    color: #2874f0;
+    font-weight: 500;
+    margin-top: 220px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: grey;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
